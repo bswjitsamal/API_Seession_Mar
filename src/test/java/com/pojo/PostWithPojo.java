@@ -31,7 +31,7 @@ public class PostWithPojo {
 				.response();
 
 		Assert.assertEquals(201, response.statusCode());
-		Assert.assertEquals("biswa samal", response.jsonPath().getString("title"));
+		Assert.assertEquals("Manju", response.jsonPath().getString("title"));
 		System.out.println(response.asPrettyString());
 
 	}

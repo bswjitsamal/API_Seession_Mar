@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.fitea.restcall.PostMethod">
+      <class name="com.pojo.PostWithPojo">
         <methods>
-          <include name="postRequest"/>
           <include name="setup"/>
+          <include name="postRequest"/>
         </methods>
-      </class> <!-- com.fitea.restcall.PostMethod -->
+      </class> <!-- com.pojo.PostWithPojo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
